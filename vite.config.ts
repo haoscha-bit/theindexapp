@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
   // Set base to your GitHub repo name, e.g. "/my-repo-name/"
   // If deploying to a custom domain or username.github.io, use "/"
-  base: "./",
+  base: "/theindexapp/",
   resolve: {
     alias: {
       "@": path.resolve(import.meta.dirname, "client", "src"),
